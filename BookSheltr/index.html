@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Bookshelter</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <img class="logoud" src="/img/logo-dark.svg" alt="">
+
+            <input class="inp-search" type="text" name="q" placeholder="Search books">
+
+            <div class="log">
+                <img src="/img/sun.png" width="25" height="25" alt="">
+                <a class="logout" href="/login.html">Logout</a>
+            </div>
+        </nav>
+        <div class="length">
+            <p class="results">result</p>
+            <a class="new-old" href="#">Order by newest</a>
+        </div>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="booki">
+                <h2 class="titl">Bookmarks</h2>
+                <p class="txt">If you don't like to read, you haven't found the right book</p>
+                <ul class="bookmarkz"></ul>
+            </div>
+            <ul class="list">
+
+            </ul>
+
+            <template class="template">
+                <li class="book">
+                    <img class="book-img" src="https://via.placeholder.com/200" width="200" height="200" alt="">
+                    <h2 class="book-title">Book Title</h2>
+                    <p class="avtor">David</p>
+                    <p class="book-date">2012</p>
+                    <div>
+                        <button class="bookmark">Bookmark</button>
+                        <button class="info">More Info</button>
+                    </div>
+                    <a class="read" href="#">Read</a>
+                </li>
+            </template>
+
+            <!-- <div class="modal">
+                <div>
+                    <h2 class="bookname">Python</h2>
+                    <a class="modal-exit" href="#"><img src="/img/Vector.svg" width="25" height="25" alt=""></a>
+                </div>
+                <img src="https://via.placeholder.com/230" width="230" height="300" alt="">
+                <p class="desc"></p>
+                <ul class="list-modal">
+                    <li class="author"></li>
+                    <li class="published"></li>
+                    <li class="publishers"></li>
+                    <li class="categories"></li>
+                    <li class="pages-count"></li>
+                </ul>
+
+            </div> -->
+        </header>
+
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
